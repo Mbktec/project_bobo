@@ -1,0 +1,49 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+   
+    
+}
+.ecrit {
+    border: 1px solid blue;
+    height: 150px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: rgb(206, 178, 183);
+    font-size: 25px;
+    padding: 20px;
+
+}
+h4{
+    text-align: right;
+    margin-bottom: 20vh;
+  }
+
+button {
+    margin-top: 5%;
+    width: 30%;
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color:  rgb(206, 178, 183);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
